@@ -1,0 +1,11 @@
+.panel-outlet {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 51px;
+  height: auto !important;
+  width: 300px;
+  background-color: #eee;
+  z-index: 5000;
+  box-shadow: -5px 0 5px -6px #7C7C7C;
+}

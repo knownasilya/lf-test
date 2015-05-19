@@ -1,0 +1,6 @@
+<h2 id="title">Welcome to Ember.js</h2>
+
+<button type="button" {{action 'togglePanel' 'test'}}>Test</button>
+<button type="button" {{action 'togglePanel' 'again'}}>Test Again</button>
+{{outlet}}
+{{liquid-outlet 'panel' class='panel-outlet' containerless=true}}
